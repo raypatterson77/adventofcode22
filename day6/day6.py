@@ -3,7 +3,6 @@ from collections import Counter
 def get_unique_slice_index(challenge_slices):
     for string_slice in challenge_slices:
         number_of_chars = Counter(string_slice)
-        counter +=1
         if(len(number_of_chars) == len(string_slice)):
             return challenge_slices.index(string_slice)
 
